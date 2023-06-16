@@ -25,9 +25,10 @@ public class Main {
 //      問② arrayの二つ目の要素を"bar"にしましょう。
 			array.set(1, "bar");
 //      問③ fooが格納されているインデックスを出力してください。
-			int i = 2;
-	            System.out.println(array.get(i) + "のインデックス：" + i);
-			
+	         // Listの中fooが何番目か検索
+	         int index = array.indexOf("foo");
+	        		 
+	         System.out.println(array.get(index) + "のインデックス : " + index);			
 		}
 
 		{
